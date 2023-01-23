@@ -1,0 +1,34 @@
+{
+    "intents" : [
+        {
+        "tag" : "karsilama",
+        "pattern" : ["hosgeldin","merhaba","naber","nasilsin","nasil gidiyor"],
+        "responses" : ["merhaba","Heyy","senin icin ne yapabilirim","ne istiyorsun"] 
+        },
+        {
+            "tag" : "gulegule",
+            "pattern":["gule gule","iyi gunler","iyi akşamlar","sonra goruşmek uzere","By by"],
+            "responses":["gule gule","tekrar gorusmek uzere", "iyi gunler","sonra gorusuruz"]
+        },
+        {
+            "tag" : "yas",
+            "pattern":["kac yas","sen kac yasindasin","yas?","yas kac","yas kac oldu"],
+            "responses":["2021 yilinda yapildim","ne onemi var"]
+        },
+        {
+            "tag":"isim",
+            "pattern":["ismin ne", "sana nasil seslenmeliyim","isimii oğrenebilirmiim?","sana nasil sesleniyorlar"],
+            "responses":["isin chat bot","chat bot"]
+        },
+        {
+            "tag":"magaza",
+            "pattern":["ne satin alabilirim?","ne alabilirim?", "onerin ne ?","ne oneriyorsun?","hangi urunler var"],
+            "responses":["cesitli sebzeler mevcut","sebze ve ya meyve oneriyorum","bu havada portakal iyi gelir"]
+        },
+        {
+            "tag":"zaman",
+            "pattern":["calisma saatleri","ne zaman sana ulasabilirim","hep burdamisin"],
+            "responses":["7/24 buradayim","malesef ara vermiyorum"]
+        }
+    ]
+}
